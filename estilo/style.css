@@ -15,19 +15,18 @@
 }
 
 body {
-    background-position: center bottom;
-    background-image: url('imagem/IMG03.jpg');
-    background-size: cover;
+    background-position:100%;
+    background-image: url('imagem/fundo.jpeg');
+    background-size: contain;
     background-color: var(--cor0);
     margin: 0px;
-    text-indent: 30px;
 }
 
 header {
     background-image: linear-gradient(to top , var(--cor1), var(--cor2));
     padding: 40px;
     font-family:var(--font-destaque);
-    font-size:20px;
+    font-size:18px;
     color: white; /*#D98E04*/
     text-align: center;
     text-decoration:none;
@@ -70,7 +69,7 @@ main {
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20PX;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
 }
@@ -86,6 +85,6 @@ footer {
 footer a {
     color: black;
     text-decoration: underline;
-    background-color: #ffffff;
+    background-color: #ffffff63;
 }
 
