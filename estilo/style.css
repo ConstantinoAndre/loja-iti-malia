@@ -12,6 +12,7 @@
     --cor3: #82358c6b;  /* footer*/
 
     --font-destaque: Aclonica;
+    --font-normal: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -46,22 +47,32 @@ nav > a {
     color: white;
     border-radius: 5px;
     padding: 10px;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
 
 }
 
+nav > a:hover {
+    background-color: white;
+    color: var(--cor2);
+}
+
 main {
+    min-width: 200px;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
     background-attachment: fixed;
     background-image: linear-gradient(to bottom , #82358C ,#F25C93);
     font-family: var(--font-destaque);
     font-size: 20px;
-    max-width: 400px;
-    margin: auto;
-    padding: 10px;
     color: white;
     text-align: center;
+}
+
+main img {
+    width: 100%;
 }
 
 
@@ -80,6 +91,7 @@ footer {
     text-align: center;
     font-weight: bold;
     padding: 2px;
+    margin: 5px;
 }
 
 footer a {
