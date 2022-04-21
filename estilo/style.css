@@ -75,6 +75,9 @@ main img {
     width: 100%;
 }
 
+img.main {
+    width: 40%;
+}
 
 
 p {
