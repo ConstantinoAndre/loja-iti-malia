@@ -75,8 +75,11 @@ main img {
     width: 100%;
 }
 
-img.main {
+img.pequena {
     width: 40%;
+    max-width: 350px;
+    display: block;
+    margin: auto ;
 }
 
 
